@@ -1,31 +1,50 @@
-This repository contains all the files of my 4th Semester PBL project.
-AI Healthcare Chatbot Features
-Modern UI: The application has a clean, professional interface using Shadcn UI components with a healthcare-themed design.
+# AI Healthcare Assistant
 
-Interactive Chat Interface:
 
-Real-time messaging interface with user and AI messages
-Proper message formatting and timestamps
-Message history display
-Loading indicators when waiting for AI responses
-Backend API:
 
-Integration with OpenAI for AI responses
-API endpoint with appropriate error handling
-Mock responses for development without an API key
-Healthcare-Specific Features:
+## 📝 Table of Contents
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [API Endpoints](#-api-endpoints)
+- [Project Structure](#-project-structure)
+- [Future Enhancements](#-future-enhancements)
+- [Contributing](#-contributing)
 
-Detailed system prompts focused on healthcare guidelines
-Clear medical disclaimers
-Healthcare-themed components and iconography
-Educational features section highlighting health information
-Responsive Design:
+## 🌟 Project Overview
+An AI-powered healthcare chatbot that provides:
+- Symptom analysis and basic medical advice
+- Patient profile management
+- Conversation history tracking
+- Quick access to common symptom information
 
-Works well on mobile, tablet, and desktop devices
-Adapts layout based on screen size
-Professional Elements:
+## ✨ Features
+- **Patient Registration**: Stores name and age
+- **Symptom Analysis**: Provides advice for 5+ common conditions
+- **Medical History**: Tracks all patient interactions
+- **Responsive UI**: Clean desktop interface with dark/light modes
+- **Quick Actions**: One-click symptom buttons
 
-Header and footer with important links
-Medical disclaimer section
-Feature highlights
-Dark mode support
+## 🛠 Tech Stack
+### Backend
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| Python | Core language | 3.8+ |
+| FastAPI | Web framework | 0.68+ |
+| Uvicorn | ASGI server | 0.15+ |
+| Pydantic | Data validation | 1.8+ |
+| JSON | Database | - |
+
+### Frontend
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| Tkinter | GUI framework | 8.6+ |
+| Requests | HTTP client | 2.26+ |
+
+## 🚀 Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ai-healthcare-chatbot.git
+   cd ai-healthcare-chatbot
